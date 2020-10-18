@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(255, 204, 0);
+}
+
+h1 {
+    color: rgb(140, 1, 1);
+}
+
+.eaten{
+    float:right;
+}
+
+.uneaten{
+    float:left;
+}
