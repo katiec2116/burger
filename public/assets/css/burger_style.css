@@ -44,13 +44,12 @@ button {
         0 0 7px 5px rgb(255, 255, 255); 
 }
 
-.delete-burger{
-    color:white;
-    background-color: rgb(94, 0, 0);
+.order{
+    background-color: rgb(255, 197, 39);
     box-shadow:
-    0 0 4px 2px rgb(94, 0, 0), 
-    0 0 5px 3px rgb(94, 0, 0), 
-    0 0 7px 5px rgb(94, 0, 0); 
+    0 0 4px 2px rgb(250, 200, 63),
+        0 0 5px 3px rgb(252, 205, 75), 
+        0 0 7px 5px rgb(255, 255, 255);  
 }
 
 .glow {
