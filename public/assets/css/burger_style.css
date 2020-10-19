@@ -7,7 +7,7 @@ body{
 h2 {
     font-family: 'Roboto', sans-serif;
     color: rgb(253, 0, 0);
-    text-shadow: 0 0 1px rgb(0, 0, 0), 0 0 5px rgb(255, 255, 255);
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 2px rgb(255, 255, 255);
   }
 
 
@@ -39,9 +39,18 @@ button {
     background-color: white;
     margin: 6px;
     box-shadow:
-        0 0 4px 2px #fff,  /* inner white */
-        0 0 5px 3px rgb(255, 255, 255), /* middle magenta */
-        0 0 7px 5px rgb(255, 255, 255); /* outer cyan */
+        0 0 4px 2px #fff,
+        0 0 5px 3px rgb(255, 255, 255), 
+        0 0 7px 5px rgb(255, 255, 255); 
+}
+
+.delete-burger{
+    color:white;
+    background-color: rgb(94, 0, 0);
+    box-shadow:
+    0 0 4px 2px rgb(94, 0, 0), 
+    0 0 5px 3px rgb(94, 0, 0), 
+    0 0 7px 5px rgb(94, 0, 0); 
 }
 
 .glow {
