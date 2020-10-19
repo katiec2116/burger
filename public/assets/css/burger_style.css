@@ -63,7 +63,7 @@ button {
     animation: glow 1s ease-in-out infinite alternate;
   }
   
-  @-webkit-keyframes glow {
+  @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 15px rgb(255, 212, 70), 0 0 20px #e6bc00, 0 0 25px #e69600, 0 0 30px #d87c03, 0 0 45px #d37000, 0 0 50px #ff3c00;
     }
@@ -71,4 +71,21 @@ button {
     to {
       text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 15px #ff4d4d, 0 0 20px #ff0000, 0 0 25px #ff3c00, 0 0 60px #ff3300, 0 0 30px #ff0000, 0 0 40px #af0000;
     }
+  }
+
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(360deg);
+    }
+  }
+  
+  img.burger {
+      animation-name:            rotate; 
+      animation-duration:        5s; 
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
   }
