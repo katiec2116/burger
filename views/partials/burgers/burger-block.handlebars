@@ -1,8 +1,8 @@
-<li class = "list-group-item">
-	{{burger_name}}
+<li>
+	{{!-- {{burger_name}} --}}
 
-	<p class ="pt-2"><button class="devour btn btn-sm rounded border-dark"  data-id="{{id}}" data-status="{{status}}">
-		Eat!
+	<button class="devour btn btn-sm rounded mx-3"  data-id="{{id}}" data-status="{{status}}">
+		{{burger_name}}
 	</button>
-	<button class="delete-burger btn btn-sm rounded border-dark" data-id="{{this.id}}">Delete!</button></p>
+	{{!-- <button class="delete-burger btn btn-sm rounded" data-id="{{this.id}}">Delete!</button> --}}
 </li>
